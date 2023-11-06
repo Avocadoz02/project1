@@ -22,16 +22,20 @@ nav{
                 padding: 9px 11px;
     
                 & a{
-                    white-space: nowrap;
                     color: white;
                 }
             }
-            & a{ /* id='create' */
-                color: black;
-                font-size: 1rem;
-                text-decoration: none;
+
+            & .minor{
                 padding: 9px 11px;
             }
+        }
+
+        & a{
+            color: black;
+            white-space: nowrap;
+            text-decoration: none;
+            font-size: 1rem;
         }
         
         & input{
