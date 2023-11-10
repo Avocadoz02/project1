@@ -18,16 +18,19 @@ nav{
             
             & .main{
                 background-color: black;
-                border-radius: 30px;
-                padding: 9px 11px;
     
                 & a{
                     color: white;
                 }
             }
 
-            & .minor{
+            & .minor, .main{
                 padding: 9px 11px;
+                border-radius: 30px;
+            }
+
+            & .minor:hover{
+                background-color: #e6e6e6;
             }
         }
 
