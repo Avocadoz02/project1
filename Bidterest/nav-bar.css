@@ -93,8 +93,10 @@ nav{
 
 }
 @media (max-width: 768px) {
-    .main, a{
-        display: none;
+    ul{
+        .main, a{
+            display: none;
+        }
     }
     nav{
         & ul{
