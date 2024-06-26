@@ -11,4 +11,3 @@
 # Language (For Now)
 - HTML
 - CSS
-- JavaScript
